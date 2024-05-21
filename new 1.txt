@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li style="float:right"><a class="active" href="#home">Service</a></li>
+  <li style="float:right"><a class="active" href="#news">Gallery</a></li>
+  <li style="float:right"><a class="active" href="#contact">About</a></li>
+  <li style="float:right"><a class="active" href="#about">Team</a></li>
+   <li style="float:right"><a class="active" href="#about">Contact Us</a></li>
+</ul>
+
+</body>
+</html>
+
+
